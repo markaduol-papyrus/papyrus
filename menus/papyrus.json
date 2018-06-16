@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle papyrus",
+        "command": "papyrus:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "papyrus",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "papyrus:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
