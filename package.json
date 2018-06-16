@@ -1,0 +1,18 @@
+{
+  "name": "papyrus",
+  "version": "1.0.0",
+  "description": "Peer-to-peer collaborative editor as a web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.doc.ic.ac.uk/ma7614/papyrus.git"
+  },
+  "keywords": [
+    "peer-to-peer"
+  ],
+  "author": "Mark Aduol",
+  "license": "MIT"
+}
