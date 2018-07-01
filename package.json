@@ -3,8 +3,7 @@
   "main": "./lib/papyrus",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "papyrus:toggle"
   },
@@ -14,5 +13,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "papyrus-crdt": "file:../papyrus-crdt",
+    "uuid": "^3.3.2",
+    "webrtc-adapter": "^6.2.1"
   }
 }
