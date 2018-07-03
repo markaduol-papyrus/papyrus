@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "papyrus:toggle"
+            },
+            {
+              "label": "Create Portal",
+              "command": "papyrus:createPortal"
             }
           ]
         }
