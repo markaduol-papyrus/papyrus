@@ -20,7 +20,7 @@
             },
             {
               "label": "Create Portal",
-              "command": "papyrus:createPortal"
+              "command": "papyrus:create-portal"
             }
           ]
         }
