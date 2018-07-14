@@ -1,0 +1,12 @@
+# Siganlling messages
+{
+  "type":,
+  "assignedPeerId":,
+  "createdByServer":,
+  "senderPeerId":,
+  "targetPeerId":,
+}
+# Peer to peer messages
+{
+  "type"
+}

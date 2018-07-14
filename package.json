@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "papyrus:toggle"
+    "atom-workspace": "papyrus:create-portal"
   },
   "repository": "https://github.com/atom/papyrus",
   "license": "MIT",

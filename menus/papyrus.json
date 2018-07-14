@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle papyrus",
-        "command": "papyrus:toggle"
+        "label": "Create papyrus portal",
+        "command": "papyrus:create-portal"
+      },
+      {
+        "label": "Destroy papyrus portal",
+        "command": "papyrus:destroy-portal"
       }
     ]
   },
@@ -15,12 +19,12 @@
           "label": "papyrus",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "papyrus:toggle"
-            },
-            {
               "label": "Create Portal",
               "command": "papyrus:create-portal"
+            },
+            {
+              "label": "Destroy Portal",
+              "command": "papyrus:destroy-portal"
             }
           ]
         }
