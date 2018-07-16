@@ -1,11 +1,14 @@
 {
   "name": "papyrus",
-  "main": "./lib/papyrus",
+  "main": "index.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Share your workspace with team members and collaborate in real-time",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "papyrus:create-portal"
+    "atom-workspace": [
+      "papyrus:share-portal",
+      "papyrus:join-portal"
+    ]
   },
   "repository": "https://github.com/atom/papyrus",
   "license": "MIT",

@@ -2,12 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Create papyrus portal",
-        "command": "papyrus:create-portal"
+        "label": "Share Papyrus portal",
+        "command": "papyrus:share-portal"
       },
       {
-        "label": "Destroy papyrus portal",
-        "command": "papyrus:destroy-portal"
+        "label": "Close Papyrus portal",
+        "command": "papyrus:close-portal"
       }
     ]
   },
@@ -16,15 +16,23 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "papyrus",
+          "label": "Papyrus",
           "submenu": [
             {
-              "label": "Create Portal",
-              "command": "papyrus:create-portal"
+              "label": "Share Portal",
+              "command": "papyrus:share-portal"
             },
             {
-              "label": "Destroy Portal",
-              "command": "papyrus:destroy-portal"
+              "label": "Close Portal",
+              "command": "papyrus:close-portal"
+            },
+            {
+              "label": "Join Portal",
+              "command": "papyrus:join-portal"
+            },
+            {
+              "label": "Leave Portal",
+              "command": "papyrus:leave-portal"
             }
           ]
         }
