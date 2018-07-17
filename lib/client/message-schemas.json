@@ -6,7 +6,12 @@
   "senderPeerId":,
   "targetPeerId":,
 }
-# Peer to peer messages
+# Host Portal Binding -> Portal Binding Manager
 {
-  "type"
+  "type":,
+  "portalId":,
+  "textBufferProxyId":,
+  "charObject":,
+  "targetPeerIds":,
+  "senderPeerId":,
 }
