@@ -16,8 +16,16 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "etch": "^0.14.0",
     "papyrus-crdt": "file:../papyrus-crdt",
     "uuid": "^3.3.2",
     "webrtc-adapter": "^6.2.1"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   }
 }
