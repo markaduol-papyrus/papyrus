@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "etch": "^0.14.0",
+    "loglevel": "^1.6.1",
     "papyrus-crdt": "file:../papyrus-crdt",
     "uuid": "^3.3.2",
     "webrtc-adapter": "^6.2.1"
