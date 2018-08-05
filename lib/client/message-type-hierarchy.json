@@ -1,0 +1,16 @@
+{
+  "SERVER": [
+    "LOCAL_PEER_ID"
+  ],
+  "PEER": [
+    "NOTIFICATION",
+    "INSERT",
+    "DELETE",
+    "JOIN_PORTAL",
+    "LEAVE_PORTAL",
+    "INSERT_BATCH",
+    "DELETE_BATCH",
+    "SITE_ID_ASSIGNMENT",
+    "SITE_ID_ACKNOWLEDGEMENT"
+  ]
+}
