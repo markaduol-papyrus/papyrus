@@ -5,6 +5,7 @@ module.exports = new PapyrusPackage({
   notificationManager: atom.notifications,
   clipboard: atom.clipboard,
   tooltipManager: atom.tooltips,
+  commandRegistry: atom.commands,
   portalBindingManager: new PortalBindingManager({
     workspace: atom.workspace,
     notificationManager: atom.notifications
