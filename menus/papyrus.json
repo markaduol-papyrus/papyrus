@@ -4,10 +4,6 @@
       {
         "label": "Share Papyrus portal",
         "command": "papyrus:share-portal"
-      },
-      {
-        "label": "Close Papyrus portal",
-        "command": "papyrus:close-portal"
       }
     ]
   },
@@ -21,18 +17,6 @@
             {
               "label": "Share Portal",
               "command": "papyrus:share-portal"
-            },
-            {
-              "label": "Close Portal",
-              "command": "papyrus:close-portal"
-            },
-            {
-              "label": "Join Portal",
-              "command": "papyrus:join-portal"
-            },
-            {
-              "label": "Leave Portal",
-              "command": "papyrus:leave-portal"
             }
           ]
         }

@@ -6,8 +6,7 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "papyrus:share-portal",
-      "papyrus:join-portal"
+      "papyrus:share-portal"
     ]
   },
   "repository": "https://github.com/atom/papyrus",
