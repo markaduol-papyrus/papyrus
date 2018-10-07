@@ -1,18 +1,33 @@
 {
   "name": "papyrus",
-  "version": "1.0.0",
-  "description": "Peer-to-peer collaborative editor as a web application",
   "main": "index.js",
-  "scripts": {
-    "test": "npm test"
+  "version": "0.0.0",
+  "description": "Share your workspace with team members and collaborate in real-time",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "papyrus:share-portal"
+    ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.doc.ic.ac.uk/ma7614/papyrus.git"
+  "repository": "https://github.com/atom/papyrus",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   },
-  "keywords": [
-    "peer-to-peer"
-  ],
-  "author": "Mark Aduol",
-  "license": "MIT"
+  "dependencies": {
+    "etch": "^0.14.0",
+    "loglevel": "^1.6.1",
+    "object-sizeof": "^1.2.0",
+    "papyrus-crdt": "file:../papyrus-crdt",
+    "string-hash": "^1.1.3",
+    "uuid": "^3.3.2",
+    "webrtc-adapter": "^6.2.1"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
 }

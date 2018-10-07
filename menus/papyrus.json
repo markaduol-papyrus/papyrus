@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Share Papyrus portal",
+        "command": "papyrus:share-portal"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Papyrus",
+          "submenu": [
+            {
+              "label": "Share Portal",
+              "command": "papyrus:share-portal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
